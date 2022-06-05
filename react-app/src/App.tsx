@@ -10,7 +10,7 @@ export default function App({ name }) {
         <nav>
           <ul>
             <li>
-              <Link to="/react/image">Image</Link>
+              <Link to="/react/reactimage">React Image</Link>
             </li>
             <li>
               <Link to="/react/gdataimage">G DATA Image</Link>
@@ -29,8 +29,8 @@ export default function App({ name }) {
           <Route path="/react/dukenukemminigame">
             <DukeNukemMiniGame />
           </Route>
-          <Route path="/react/image">
-            <Image />
+          <Route path="/react/reactimage">
+            <ReactImage />
           </Route>
         </Switch>
       </div>
@@ -38,7 +38,7 @@ export default function App({ name }) {
   );
 }
 
-function Image() {
+function ReactImage() {
   return (
     <div>
       <img src="https://create-react-app.dev/img/logo-og.png" width="100%" height="100%"></img>
