@@ -32,13 +32,12 @@ const css = `
 }
 
 .navbarReact li:hover {
-  opacity: 0.8;
-  color:white;
+  opacity: 0.5;
 }
 
 .navbarReact a {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   cursor: pointer;
 }`;
 
